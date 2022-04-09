@@ -1,0 +1,19 @@
+{
+  "name": "curso-trybe",
+  "version": "1.0.0",
+  "description": "Material do curso da Trybe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeCase/curso-trybe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeCase/curso-trybe/issues"
+  },
+  "homepage": "https://github.com/JorgeCase/curso-trybe#readme"
+}
