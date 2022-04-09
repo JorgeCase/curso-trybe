@@ -1,0 +1,25 @@
+.background {
+    background-image: linear-gradient(to bottom right, #9fa8a3, #c5d5cb, #e3e0cf);
+    height:1px;
+}
+
+#gif {
+    text-align: left;
+    width: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    padding-left: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#line {
+    outline-style: solid;
+    outline-width: 1px;
+}

@@ -1,0 +1,17 @@
+
+
+.header {
+   background-color: #c5d5cb;
+   border-style: dashed;
+   border-color: red;
+   font-size: 3em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.gif {
+    text-align: left;
+    padding: 15px
+    width: 20px;
+    display: inline-block;
+}
