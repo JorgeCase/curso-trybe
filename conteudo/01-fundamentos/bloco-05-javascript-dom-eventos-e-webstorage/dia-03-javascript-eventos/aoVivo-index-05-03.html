@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 1</title>
+    <script>
+        window.onload = function vermelho() {
+            document.body.style.backgroundColor = 'red';
+            let p = document.createElement('p');
+            p.innerHTML = 'SOS';
+            document.body.appendChild(p);
+            p.style.textAlign = 'center';
+            p.style.color = 'white';
+            p.style.fontFamily = 'sans-serif';
+            p.style.fontSize = '3em';
+
+            let botao = document.getElementById('botaozinho');
+            botao.addEventListener('click', function() {
+                console.log('Hoje esta um dia bonito');
+                document.body.style.backgroundColor = 'rgb(' + Math.floor(Math.random() * 255) + ', 45, ' + Math.floor(Math.random() * 255);
+            });
+        }
+    </script>
+</head>
+<body>
+
+    <button id="botaozinho">Clique aqui</button>
+    
+</body>
+</html>
