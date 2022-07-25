@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/JorgeCase/curso-trybe/issues"
   },
-  "homepage": "https://github.com/JorgeCase/curso-trybe#readme"
+  "homepage": "https://github.com/JorgeCase/curso-trybe#readme",
+  "dependencies": {
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0"
+  }
 }
